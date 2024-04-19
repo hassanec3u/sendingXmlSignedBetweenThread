@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Envelope><QUERY>/employe[age&gt;29]</QUERY><RESULT>
+0	Robert JohnsonAssistantrobert.johnson@example.com32450002021-11-10</RESULT><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>Fzse+QnC6XNlFw+AVSwQY4gYi0Q=</DigestValue></Reference></SignedInfo><SignatureValue>Ew2YpT8ur/nxCqNVwB2yQ+aWHzd82PJ+Yk9Ag+XFTx5NlOi7dB5NvkVNWvIH0HG4TvMnfFxkD1sv&#13;
+VpLL/ss5NmahWH+8w0cGBc6XLq/Ng7+UsBHJQQKm247ctVQJj8D0eoiTkhllpvhwld8DN9Nl7o3t&#13;
+5O4jaCbPjzjMryJ+Nl25D8oT7XLS8g5KsUDWouV5KQHWoteOlGhrzhvExvptsvkQnrPRPTzE/URU&#13;
+Ww4zVuTSkIxFgqUqzXM71II4v533M+FBT7pU+2N1DJn/c9BmlDQN+IF3QTP1ZHxzMHqch08Kx/yM&#13;
+WFGz74kpGkvdbx1MWwNyXzbpr+qPJFUuaJ3ixQ==</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>i77fltJO2A0vG3kcLXVqqFfZqexnwFtmRpp4nt2mU/w+L7Zy6pluZHrfhye65cyxUqTuhXVTwJVl&#13;
+cnHqnAfAiB51EATh2B0BCn+fhUz/2lTorg4X+PSCb/LqXr9rtQMaRBtuYsXW4Rx6/BJLSbMQBKXY&#13;
+04Mi1/5xtF/f9JN9HjK8FDMu6yXd4/G0GsA22U/JU+h+7WrKDqH318Ub42++eeszq49gAG4ENVEl&#13;
+g8ajhQMGgaGZgJvu9Sxh850KKyp9KqRgR1f3XVvMw/woAn0ZYCTooxKjrdSoF1DwRh6fUcWmj4r6&#13;
+DLBYhTYDLrpPns5z7Fmch19DbNKms8mWjEEpDw==</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue></KeyInfo></Signature></Envelope>

@@ -1,0 +1,8 @@
+<!ELEMENT entreprise (employe+)>
+<!ELEMENT employe (nom, poste, email, age, salaire, date_debut)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT poste (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT salaire (#PCDATA)>
+<!ELEMENT date_debut (#PCDATA)>

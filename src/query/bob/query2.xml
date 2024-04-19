@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QUERIES SYSTEM "queries.dtd">
+<QUERIES>
+    <QUERY>/employe[age>29]</QUERY>
+</QUERIES>

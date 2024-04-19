@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE entreprise SYSTEM "entreprise.dtd">
+<entreprise >
+    <employe>
+        <nom>John Doe</nom>
+        <poste>Manager</poste>
+        <email>john.doe@example.com</email>
+        <age>35</age>
+        <salaire>60000</salaire>
+        <date_debut>2022-05-15</date_debut>
+    </employe>
+    <employe >
+        <nom>Jane Smith</nom>
+        <poste>Ingénieur</poste>
+        <email>jane.smith@example.com</email>
+        <age>28</age>
+        <salaire>55000</salaire>
+        <date_debut>2023-02-20</date_debut>
+    </employe>
+</entreprise>
