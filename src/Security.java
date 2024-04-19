@@ -75,13 +75,12 @@ public class Security {
             // Création d'un objet XMLSignatureFactory
             XMLSignatureFactory sigFactory = XMLSignatureFactory.getInstance("DOM");
 
-
             // Création des éléments de la signature
-            Reference ref = sigFactory.newReference("", sigFactory.newDigestMethod(DigestMethod.SHA1, null),
+            Reference ref = sigFactory.newReference("", sigFactory.newDigestMethod(DigestMethod.SHA256, null),
                     Collections.singletonList(sigFactory.newTransform(Transform.ENVELOPED, (TransformParameterSpec) null)),
                     null, null);
             SignedInfo signedInfo = sigFactory.newSignedInfo(sigFactory.newCanonicalizationMethod(CanonicalizationMethod.INCLUSIVE,
-                            (C14NMethodParameterSpec) null), sigFactory.newSignatureMethod(SignatureMethod.RSA_SHA1, null),
+                            (C14NMethodParameterSpec) null), sigFactory.newSignatureMethod(SignatureMethod.RSA_SHA256, null),
                     Collections.singletonList(ref));
 
             // Création de la clé de signature
@@ -98,10 +97,8 @@ public class Security {
             // Signature du document
             signature.sign(signContext);
 
-
         } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
-
 }
